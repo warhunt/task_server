@@ -98,3 +98,312 @@
 [2021-02-20 16:51:42,898] [DEBUG] - FGSH_server: test_jwt finished
 [2021-02-20 16:51:52,320] [DEBUG] - FGSH_server: test_jwt started
 [2021-02-20 16:51:52,320] [DEBUG] - FGSH_server: test_jwt finished
+[2021-02-20 17:15:27,176] [INFO] - FGSH_server: FGSH_server started
+[2021-02-20 17:15:27,201] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-20 17:15:36,565] [INFO] - FGSH_server: FGSH_server started
+[2021-02-20 17:15:46,624] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 14:30:11,576] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 14:30:11,618] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 14:30:34,955] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 14:30:34,982] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 14:30:53,039] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 14:30:53,064] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 14:30:56,821] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 14:31:01,751] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 14:34:34,090] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 14:34:34,119] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 14:34:37,368] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 14:34:42,810] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 14:35:28,305] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 14:35:28,955] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 14:38:28,978] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 14:38:29,655] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 14:38:32,647] [DEBUG] - FGSH_server: create_role started
+[2021-02-22 14:38:32,651] [WARNING] - FGSH_server: name 'existing_user' is not defined
+[2021-02-22 14:38:32,651] [DEBUG] - FGSH_server: create_role finished
+[2021-02-22 14:39:09,744] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 14:39:10,405] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 14:39:13,689] [DEBUG] - FGSH_server: create_role started
+[2021-02-22 14:39:13,790] [DEBUG] - FGSH_server: create_role finished
+[2021-02-22 14:39:23,121] [DEBUG] - FGSH_server: create_role started
+[2021-02-22 14:39:23,122] [DEBUG] - FGSH_server: create_role finished
+[2021-02-22 14:39:35,799] [DEBUG] - FGSH_server: get_all_roles started
+[2021-02-22 14:39:35,801] [DEBUG] - FGSH_server: get_all_roles finished
+[2021-02-22 14:39:55,451] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 14:39:55,533] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 14:59:10,300] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 14:59:10,899] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 14:59:16,844] [DEBUG] - FGSH_server: get_all_roles started
+[2021-02-22 14:59:16,848] [DEBUG] - FGSH_server: get_all_roles finished
+[2021-02-22 15:00:21,713] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:00:22,384] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:00:27,039] [DEBUG] - FGSH_server: get_all_roles started
+[2021-02-22 15:00:27,042] [DEBUG] - FGSH_server: get_all_roles finished
+[2021-02-22 15:01:25,662] [DEBUG] - FGSH_server: get_all_roles started
+[2021-02-22 15:01:25,664] [DEBUG] - FGSH_server: get_all_roles finished
+[2021-02-22 15:02:15,211] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:02:15,897] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:02:20,664] [DEBUG] - FGSH_server: get_all_roles started
+[2021-02-22 15:02:20,667] [DEBUG] - FGSH_server: get_all_roles finished
+[2021-02-22 15:03:23,203] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:03:23,836] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:03:26,764] [DEBUG] - FGSH_server: get_all_roles started
+[2021-02-22 15:03:26,767] [DEBUG] - FGSH_server: get_all_roles finished
+[2021-02-22 15:04:07,193] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:04:07,843] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:04:10,871] [DEBUG] - FGSH_server: get_all_roles started
+[2021-02-22 15:04:10,874] [DEBUG] - FGSH_server: get_all_roles finished
+[2021-02-22 15:04:22,392] [DEBUG] - FGSH_server: get_all_roles started
+[2021-02-22 15:04:22,393] [DEBUG] - FGSH_server: get_all_roles finished
+[2021-02-22 15:04:27,886] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:04:27,966] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:04:31,091] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:04:31,694] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:04:35,396] [DEBUG] - FGSH_server: get_all_roles started
+[2021-02-22 15:04:35,399] [DEBUG] - FGSH_server: get_all_roles finished
+[2021-02-22 15:04:59,255] [DEBUG] - FGSH_server: create_role started
+[2021-02-22 15:04:59,365] [DEBUG] - FGSH_server: create_role finished
+[2021-02-22 15:05:04,649] [DEBUG] - FGSH_server: get_all_roles started
+[2021-02-22 15:05:04,650] [DEBUG] - FGSH_server: get_all_roles finished
+[2021-02-22 15:08:10,657] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:08:11,325] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:08:13,456] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:08:13,540] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:15:14,708] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:15:15,326] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:15:20,259] [DEBUG] - FGSH_server: delete_role started
+[2021-02-22 15:15:20,356] [DEBUG] - FGSH_server: delete_role finished
+[2021-02-22 15:15:26,115] [DEBUG] - FGSH_server: create_role started
+[2021-02-22 15:15:26,221] [DEBUG] - FGSH_server: create_role finished
+[2021-02-22 15:18:13,165] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:18:13,833] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:18:38,703] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:18:39,424] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:18:44,950] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:18:45,587] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:18:46,775] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:18:47,413] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:19:04,336] [DEBUG] - FGSH_server: delete_role started
+[2021-02-22 15:19:04,420] [DEBUG] - FGSH_server: delete_role finished
+[2021-02-22 15:19:18,715] [DEBUG] - FGSH_server: create_role started
+[2021-02-22 15:19:18,722] [WARNING] - FGSH_server: to_lower() takes 0 positional arguments but 1 was given
+[2021-02-22 15:19:18,722] [DEBUG] - FGSH_server: create_role finished
+[2021-02-22 15:19:37,433] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:19:38,136] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:19:40,200] [DEBUG] - FGSH_server: create_role started
+[2021-02-22 15:19:40,295] [DEBUG] - FGSH_server: create_role finished
+[2021-02-22 15:19:45,209] [DEBUG] - FGSH_server: get_all_roles started
+[2021-02-22 15:19:45,211] [DEBUG] - FGSH_server: get_all_roles finished
+[2021-02-22 15:29:07,778] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:29:08,450] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:30:17,511] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:30:18,181] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:30:25,084] [DEBUG] - FGSH_server: delete_role started
+[2021-02-22 15:30:25,095] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-02-22 15:30:25,095] [DEBUG] - FGSH_server: delete_role finished
+[2021-02-22 15:30:42,053] [DEBUG] - FGSH_server: delete_role started
+[2021-02-22 15:30:42,054] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-02-22 15:30:42,054] [DEBUG] - FGSH_server: delete_role finished
+[2021-02-22 15:33:27,194] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:33:27,889] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:33:53,032] [DEBUG] - FGSH_server: delete_role started
+[2021-02-22 15:33:53,033] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-02-22 15:33:53,034] [DEBUG] - FGSH_server: delete_role finished
+[2021-02-22 15:35:55,594] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:35:56,219] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:36:03,857] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:36:04,485] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:36:07,435] [DEBUG] - FGSH_server: update_role started
+[2021-02-22 15:36:07,438] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-02-22 15:36:07,438] [DEBUG] - FGSH_server: update_role finished
+[2021-02-22 15:38:35,460] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:38:36,150] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:40:22,021] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:40:22,625] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:40:25,669] [DEBUG] - FGSH_server: update_role started
+[2021-02-22 15:40:25,673] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-02-22 15:40:25,673] [DEBUG] - FGSH_server: update_role finished
+[2021-02-22 15:40:31,182] [DEBUG] - FGSH_server: update_role started
+[2021-02-22 15:40:31,183] [WARNING] - FGSH_server: 'Role' object has no attribute 'update'
+[2021-02-22 15:40:31,183] [DEBUG] - FGSH_server: update_role finished
+[2021-02-22 15:40:49,789] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:40:50,512] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:40:53,006] [DEBUG] - FGSH_server: update_role started
+[2021-02-22 15:40:53,010] [WARNING] - FGSH_server: 'Role' object has no attribute 'update'
+[2021-02-22 15:40:53,010] [DEBUG] - FGSH_server: update_role finished
+[2021-02-22 15:43:21,778] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:43:22,517] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:45:14,532] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:45:15,149] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:45:20,121] [DEBUG] - FGSH_server: update_role started
+[2021-02-22 15:45:20,123] [WARNING] - FGSH_server: unsupported operand type(s) for ** or pow(): 'method' and 'dict'
+[2021-02-22 15:45:20,123] [DEBUG] - FGSH_server: update_role finished
+[2021-02-22 15:45:32,486] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:45:33,157] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:45:37,144] [DEBUG] - FGSH_server: update_role started
+[2021-02-22 15:45:37,146] [WARNING] - FGSH_server: update() got an unexpected keyword argument 'role'
+[2021-02-22 15:45:37,146] [DEBUG] - FGSH_server: update_role finished
+[2021-02-22 15:47:26,826] [DEBUG] - FGSH_server: update_role started
+[2021-02-22 15:47:26,826] [WARNING] - FGSH_server: update() got an unexpected keyword argument 'role'
+[2021-02-22 15:47:26,826] [DEBUG] - FGSH_server: update_role finished
+[2021-02-22 15:49:27,160] [DEBUG] - FGSH_server: get_role started
+[2021-02-22 15:49:27,162] [DEBUG] - FGSH_server: get_role finished
+[2021-02-22 15:57:40,540] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:57:41,231] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:57:57,448] [DEBUG] - FGSH_server: get_role started
+[2021-02-22 15:57:57,451] [DEBUG] - FGSH_server: get_role finished
+[2021-02-22 15:58:01,250] [DEBUG] - FGSH_server: update_role started
+[2021-02-22 15:58:01,251] [WARNING] - FGSH_server: name 'datetime' is not defined
+[2021-02-22 15:58:01,251] [DEBUG] - FGSH_server: update_role finished
+[2021-02-22 15:58:27,838] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:58:28,559] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:58:32,048] [DEBUG] - FGSH_server: update_role started
+[2021-02-22 15:58:32,052] [WARNING] - FGSH_server: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: UPDATE "Roles" SET role=?, created=? WHERE "Roles".id = ?]
+[parameters: [{'role': 'users', 'created': <built-in method now of type object at 0x00007FFA77514650>, 'Roles_id': 2}]]
+[2021-02-22 15:58:32,052] [DEBUG] - FGSH_server: update_role finished
+[2021-02-22 15:58:55,702] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:58:56,371] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:59:00,524] [DEBUG] - FGSH_server: update_role started
+[2021-02-22 15:59:00,648] [DEBUG] - FGSH_server: update_role finished
+[2021-02-22 15:59:25,775] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 15:59:26,419] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 15:59:31,854] [DEBUG] - FGSH_server: get_role started
+[2021-02-22 15:59:31,858] [DEBUG] - FGSH_server: get_role finished
+[2021-02-22 15:59:37,886] [DEBUG] - FGSH_server: update_role started
+[2021-02-22 15:59:37,962] [DEBUG] - FGSH_server: update_role finished
+[2021-02-22 15:59:40,231] [DEBUG] - FGSH_server: get_role started
+[2021-02-22 15:59:40,232] [DEBUG] - FGSH_server: get_role finished
+[2021-02-22 15:59:42,461] [DEBUG] - FGSH_server: get_all_roles started
+[2021-02-22 15:59:42,462] [DEBUG] - FGSH_server: get_all_roles finished
+[2021-02-22 15:59:57,974] [DEBUG] - FGSH_server: create_role started
+[2021-02-22 15:59:58,060] [DEBUG] - FGSH_server: create_role finished
+[2021-02-22 16:00:01,472] [DEBUG] - FGSH_server: get_all_roles started
+[2021-02-22 16:00:01,474] [DEBUG] - FGSH_server: get_all_roles finished
+[2021-02-22 16:00:05,763] [DEBUG] - FGSH_server: delete_role started
+[2021-02-22 16:00:05,872] [DEBUG] - FGSH_server: delete_role finished
+[2021-02-22 16:00:45,620] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 16:00:46,336] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 16:33:09,069] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:33:09,145] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 16:33:17,753] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:33:21,913] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:33:27,441] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:33:28,029] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:33:41,296] [DEBUG] - FGSH_server: create_role started
+[2021-02-22 16:33:41,298] [WARNING] - FGSH_server: Error creating backref 'role' on relationship 'Role.user': property of that name exists on mapper 'mapped class User->user'
+[2021-02-22 16:33:41,298] [DEBUG] - FGSH_server: create_role finished
+[2021-02-22 16:35:01,273] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 16:35:01,927] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:35:09,551] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 16:35:10,256] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:35:10,968] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 16:35:11,054] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 16:35:44,587] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:35:44,640] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 16:35:50,732] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:35:55,485] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:35:59,379] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:35:59,979] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:36:20,712] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 16:36:20,767] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 16:36:35,993] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:36:36,039] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 16:36:40,089] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:36:44,573] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:36:48,952] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:36:49,556] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:37:01,209] [DEBUG] - FGSH_server: create_role started
+[2021-02-22 16:37:01,211] [WARNING] - FGSH_server: Error creating backref 'role' on relationship 'Role.users': property of that name exists on mapper 'mapped class User->user'
+[2021-02-22 16:37:01,211] [DEBUG] - FGSH_server: create_role finished
+[2021-02-22 16:46:08,847] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 16:46:09,531] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:46:12,802] [DEBUG] - FGSH_server: create_role started
+[2021-02-22 16:46:12,905] [DEBUG] - FGSH_server: create_role finished
+[2021-02-22 16:46:26,451] [DEBUG] - FGSH_server: create_role started
+[2021-02-22 16:46:26,571] [DEBUG] - FGSH_server: create_role finished
+[2021-02-22 16:46:30,438] [DEBUG] - FGSH_server: create_role started
+[2021-02-22 16:46:30,520] [DEBUG] - FGSH_server: create_role finished
+[2021-02-22 16:49:14,744] [DEBUG] - FGSH_server: get_all_roles started
+[2021-02-22 16:49:14,746] [DEBUG] - FGSH_server: get_all_roles finished
+[2021-02-22 16:49:55,966] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 16:49:56,643] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:51:20,650] [DEBUG] - FGSH_server: create_user started
+[2021-02-22 16:51:20,655] [WARNING] - FGSH_server: (sqlite3.OperationalError) no such column: user.role_id
+[SQL: SELECT user.id AS user_id, user.login AS user_login, user.password AS user_password, user.created AS user_created, user.role_id AS user_role_id 
+FROM user 
+WHERE user.login = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('admin', 1, 0)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2021-02-22 16:51:20,655] [DEBUG] - FGSH_server: create_user finished
+[2021-02-22 16:51:40,424] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 16:51:41,153] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:51:43,170] [DEBUG] - FGSH_server: create_user started
+[2021-02-22 16:51:43,176] [WARNING] - FGSH_server: (sqlite3.OperationalError) no such column: user.role_id
+[SQL: SELECT user.id AS user_id, user.login AS user_login, user.password AS user_password, user.created AS user_created, user.role_id AS user_role_id 
+FROM user 
+WHERE user.login = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('admin', 1, 0)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2021-02-22 16:51:43,176] [DEBUG] - FGSH_server: create_user finished
+[2021-02-22 16:52:11,645] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 16:52:12,370] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 16:52:28,775] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:52:29,389] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:52:32,811] [DEBUG] - FGSH_server: create_user started
+[2021-02-22 16:52:32,825] [WARNING] - FGSH_server: (sqlite3.OperationalError) no such column: user.role_id
+[SQL: SELECT user.id AS user_id, user.login AS user_login, user.password AS user_password, user.created AS user_created, user.role_id AS user_role_id 
+FROM user 
+WHERE user.login = ?
+ LIMIT ? OFFSET ?]
+[parameters: ('admin', 1, 0)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2021-02-22 16:52:32,825] [DEBUG] - FGSH_server: create_user finished
+[2021-02-22 16:53:13,089] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 16:53:13,170] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 16:53:16,540] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:53:16,589] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 16:53:20,980] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:53:25,230] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:53:34,682] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:53:35,316] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 16:53:43,636] [DEBUG] - FGSH_server: create_role started
+[2021-02-22 16:53:43,736] [DEBUG] - FGSH_server: create_role finished
+[2021-02-22 16:53:53,952] [DEBUG] - FGSH_server: create_role started
+[2021-02-22 16:53:54,092] [DEBUG] - FGSH_server: create_role finished
+[2021-02-22 16:54:13,507] [DEBUG] - FGSH_server: create_user started
+[2021-02-22 16:54:13,744] [DEBUG] - FGSH_server: create_user finished
+[2021-02-22 16:55:20,292] [DEBUG] - FGSH_server: create_user started
+[2021-02-22 16:55:20,480] [DEBUG] - FGSH_server: create_user finished
+[2021-02-22 16:56:33,621] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 16:56:33,686] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 17:00:23,434] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 17:00:24,038] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 17:01:14,886] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 17:01:15,566] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 17:01:17,803] [DEBUG] - FGSH_server: get_all_users started
+[2021-02-22 17:01:17,808] [DEBUG] - FGSH_server: get_all_users finished
+[2021-02-22 17:01:33,985] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 17:01:34,675] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 17:01:37,208] [DEBUG] - FGSH_server: get_all_users started
+[2021-02-22 17:01:37,213] [DEBUG] - FGSH_server: get_all_users finished
+[2021-02-22 17:02:24,645] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 17:02:25,360] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 17:02:37,308] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 17:02:37,949] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 17:02:40,146] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 17:02:40,813] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 17:02:46,322] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 17:02:46,955] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 17:03:25,893] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 17:03:26,538] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 17:03:37,414] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 17:03:38,066] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 17:04:09,550] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 17:04:10,204] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 17:05:26,136] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 17:05:26,836] [INFO] - FGSH_server: FGSH_server started
+[2021-02-22 17:05:27,773] [INFO] - FGSH_server: FGSH_server stoped
+[2021-02-22 17:05:27,849] [INFO] - FGSH_server: FGSH_server stoped

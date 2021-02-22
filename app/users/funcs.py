@@ -20,6 +20,15 @@ def create_user():
     return {"data": "User with login {} is created".format(str(new_user.login)), "error": "Ok"}
 
 @logging_decorator
+def get_all_users():
+    all_users = User.query.all()
+
+    if len(all_users) == 0:
+        return {"data": "User table is empty", "error": "error"}
+    else:
+        return {"data": all_users, "error": "Ok"}
+
+@logging_decorator
 def login_user():
     body = request.get_json()
     existing_user = User.query.filter_by(login=body["login"]).first()
