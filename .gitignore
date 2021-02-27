@@ -20,3 +20,15 @@ include/
 include/*
 
 env/
+env/*
+
+.vscode/
+.vscode/*
+
+__pycache__/
+*/__pycache__/*
+
+app/FGSH_server_db.db
+
+migrations/
+migrations/*
