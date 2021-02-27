@@ -1,18 +1,17 @@
-from app.database import db
-import datetime
 from dataclasses import dataclass
 
+from app.database import db, BaseModel
+
 @dataclass
-class Role(db.Model):
+class Role(BaseModel, db.Model):
     id: int
+    created_on: str
+    updated_on: str 
     role: str
-    created: datetime.datetime
 
-    id = db.Column(db.Integer, primary_key=True)
     role = db.Column(db.String(25), nullable=False, unique=True)
-    created = db.Column(db.DateTime, default=datetime.datetime.now)
 
-    users = db.relationship('User', backref='role', lazy='dynamic')
+    users = db.relationship('User', backref='role', lazy=True)
 
     def to_lower(self):
         self.role = self.role.lower()

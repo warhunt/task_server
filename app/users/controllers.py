@@ -1,6 +1,7 @@
-import app.users.funcs as funcs
 from flask import Blueprint, request
 from flask_jwt_extended import jwt_required
+
+import app.users.funcs as funcs
 
 module = Blueprint('users', __name__, url_prefix ='/api/user')
 
@@ -11,7 +12,14 @@ def create_get_all_user():
     else:
         return funcs.get_all_users()
 
-#добавить удаление, обновление и получение отдельного пользователя
+@module.route('/<int:user_id>', methods=['DELETE', 'PUT', 'GET'])
+def delete_update_get_user(user_id):
+    if request.method == 'DELETE':
+        return funcs.delete_user(user_id)
+    elif request.method == 'PUT':
+        return funcs.update_user(user_id)
+    else:
+        return funcs.get_user(user_id)
 
 @module.route("/login", methods=["POST"])
 def login_user():

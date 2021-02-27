@@ -1,5 +1,6 @@
 import logging
 from functools import wraps
+
 from flask import current_app
 
 def logging_decorator (func):

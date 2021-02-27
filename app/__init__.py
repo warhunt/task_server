@@ -1,9 +1,17 @@
 import os
-from flask import Flask
-from app.database import db
 import logging
 from logging.config import dictConfig
+
+from flask import Flask
+from flask_debugtoolbar import DebugToolbarExtension
+
+from app.database import db
 from app.jwt import jwt
+import app.users.controllers as users
+import app.roles.controllers as roles
+import app.task_types.controllers as task_types
+import app.tasks.controllers as tasks
+import app.solutions.controllers as solutions
 
 def create_app():
 
@@ -19,17 +27,15 @@ def create_app():
 
     if app.debug == True:
         try:
-            from flask_debugtoolbar import DebugToolbarExtension
             toolbar = DebugToolbarExtension(app)
         except:
             pass
-
     
-
-    import app.users.controllers as users
+    
     app.register_blueprint(users.module)
-
-    import app.roles.controllers as roles
     app.register_blueprint(roles.module)
-    
+    app.register_blueprint(task_types.module)
+    app.register_blueprint(tasks.module)
+    app.register_blueprint(solutions.module)
+
     return app

@@ -40,8 +40,6 @@ class Config:
         },
     }
 
-
-
 class ProductionConfig(Config):
     DEBUG = False
 

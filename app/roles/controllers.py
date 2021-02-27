@@ -1,5 +1,6 @@
-import app.roles.funcs as funcs
 from flask import Blueprint, request
+
+import app.roles.funcs as funcs
 
 module = Blueprint('roles', __name__, url_prefix ='/api/role')
 
