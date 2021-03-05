@@ -14,6 +14,11 @@ class Config:
     #secret code for JWT generation
     JWT_SECRET_KEY = os.getenv('JWT_SECRET_KEY')
 
+    # Other FLASK config varaibles ...
+    ALLOWED_EXTENSIONS = ["jpg", "png", "txt", "doc", "gif", "pdf"]
+    MAX_CONTENT_LENGTH = 100 * 1024 * 1024  # 1000mb
+    UPLOAD_FOLDER = "app/static/upload/"
+
     #variables for logging the application
     LOGGER_NAME = 'FGSH_server'
     LOGGING = {

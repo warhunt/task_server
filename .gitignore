@@ -30,5 +30,10 @@ __pycache__/
 
 app/FGSH_server_db.db
 
-migrations/
+static/upload/*
+
 migrations/*
+
+app/FGSH_server_log.log
+
+app/static/upload/*

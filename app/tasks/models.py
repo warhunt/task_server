@@ -17,7 +17,7 @@ class Task(BaseModel, db.Model):
         nullable=False)
     input_data = db.Column(db.JSON, nullable=False)
 
-    created_by = db.relationship('User', backref='task', lazy=True)
+    creater = db.relationship('User', backref='task', lazy=True)
     solutions = db.relationship('Solution', backref='task', lazy=True)
     
     
