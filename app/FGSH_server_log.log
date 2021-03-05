@@ -1272,3 +1272,17 @@ WHERE user.login = ?
 [2021-03-05 16:32:32,228] [DEBUG] - FGSH_server: update_file finished
 [2021-03-05 16:34:13,979] [DEBUG] - FGSH_server: update_file started
 [2021-03-05 16:34:14,087] [DEBUG] - FGSH_server: update_file finished
+[2021-03-05 16:51:19,216] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 16:51:19,269] [WARNING] - FGSH_server: [Errno 2] No such file or directory: 'app/static/upload/1238-2218-1-SM.pdf'
+[2021-03-05 16:51:19,269] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 16:52:28,451] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 16:52:28,500] [WARNING] - FGSH_server: [Errno 2] No such file or directory: 'app/static/upload/1238-2218-1-SM.pdf'
+[2021-03-05 16:52:28,500] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 16:57:38,077] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 16:57:38,128] [WARNING] - FGSH_server: [WinError 3] Системе не удается найти указанный путь: 'app/static/upload/'
+[2021-03-05 16:57:38,143] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 16:58:16,068] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 16:58:16,123] [WARNING] - FGSH_server: [Errno 2] No such file or directory: 'app/static/upload/1238-2218-1-SM.pdf'
+[2021-03-05 16:58:16,123] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 16:59:27,286] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 16:59:27,454] [DEBUG] - FGSH_server: create_file finished
