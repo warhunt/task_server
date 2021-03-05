@@ -996,3 +996,279 @@ WHERE user.login = ?
 [2021-02-27 11:36:53,452] [DEBUG] - FGSH_server: get_all_task_type finished
 [2021-02-27 11:37:04,025] [DEBUG] - FGSH_server: delete_task_type started
 [2021-02-27 11:37:04,165] [DEBUG] - FGSH_server: delete_task_type finished
+[2021-03-04 12:32:55,804] [DEBUG] - FGSH_server: create_file started
+[2021-03-04 12:32:55,805] [DEBUG] - FGSH_server: create_file finished
+[2021-03-04 12:33:59,714] [DEBUG] - FGSH_server: create_file started
+[2021-03-04 12:33:59,879] [WARNING] - FGSH_server: 400 Bad Request: The browser (or proxy) sent a request that this server could not understand.
+[2021-03-04 12:33:59,879] [DEBUG] - FGSH_server: create_file finished
+[2021-03-04 12:34:58,851] [DEBUG] - FGSH_server: create_file started
+[2021-03-04 12:34:58,905] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 10:50:46,410] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 10:50:46,602] [WARNING] - FGSH_server: name 'ALLOWED_EXTENSIONS' is not defined
+[2021-03-05 10:50:46,603] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 10:51:09,879] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 10:51:09,926] [WARNING] - FGSH_server: name 'secure_filename' is not defined
+[2021-03-05 10:51:09,927] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 10:51:42,274] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 10:51:42,334] [WARNING] - FGSH_server: [Errno 2] No such file or directory: 'static/upload\\IMG_6026.JPG'
+[2021-03-05 10:51:42,334] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 10:56:41,852] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 10:56:41,902] [WARNING] - FGSH_server: [Errno 2] No such file or directory: 'static\\upload\\IMG_6026.JPG'
+[2021-03-05 10:56:41,902] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 10:57:16,009] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 10:57:16,058] [WARNING] - FGSH_server: [Errno 2] No such file or directory: 'static/upload\\IMG_6026.JPG'
+[2021-03-05 10:57:16,058] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 11:02:05,212] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:02:05,261] [WARNING] - FGSH_server: [Errno 2] No such file or directory: '/static/upload\\IMG_6026.JPG'
+[2021-03-05 11:02:05,261] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 11:02:33,041] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:02:33,089] [WARNING] - FGSH_server: [Errno 2] No such file or directory: './static/upload\\IMG_6026.JPG'
+[2021-03-05 11:02:33,089] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 11:02:51,381] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:02:51,430] [WARNING] - FGSH_server: [Errno 2] No such file or directory: './static/upload/IMG_6026.JPG'
+[2021-03-05 11:02:51,430] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 11:03:30,666] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:03:30,730] [WARNING] - FGSH_server: 'NoneType' object is not a mapping
+[2021-03-05 11:03:30,731] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 11:04:52,494] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:04:52,549] [WARNING] - FGSH_server: 'NoneType' object is not subscriptable
+[2021-03-05 11:04:52,550] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 11:05:45,624] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:05:45,676] [WARNING] - FGSH_server: 'NoneType' object does not support item assignment
+[2021-03-05 11:05:45,676] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 11:25:19,517] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:25:19,571] [WARNING] - FGSH_server: 'NoneType' object does not support item assignment
+[2021-03-05 11:25:19,571] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 11:25:41,002] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:25:41,054] [WARNING] - FGSH_server: 'NoneType' object does not support item assignment
+[2021-03-05 11:25:41,054] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 11:26:03,772] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:26:03,825] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 11:26:39,185] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:29:29,321] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:29:29,376] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 11:31:29,993] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:31:30,046] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 11:34:39,078] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:34:39,130] [WARNING] - FGSH_server: name 'file_path' is not defined
+[2021-03-05 11:34:39,130] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 11:36:06,705] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:36:06,755] [WARNING] - FGSH_server: local variable 'filename' referenced before assignment
+[2021-03-05 11:36:06,755] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 11:36:32,836] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:36:32,887] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 11:36:49,467] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:36:49,514] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 11:36:50,371] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:36:50,418] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 11:36:50,937] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:36:50,986] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 11:37:08,515] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:37:08,567] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 11:37:17,612] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:37:17,660] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 11:37:26,484] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:37:26,533] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 11:39:47,608] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:39:47,657] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 11:40:08,337] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 11:40:08,388] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 12:00:11,267] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 12:00:11,315] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 12:00:47,602] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 12:00:47,652] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 12:01:23,904] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 12:01:23,971] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 12:06:35,006] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 12:06:35,055] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 13:40:02,454] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 13:40:02,472] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 13:40:25,175] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 13:40:25,224] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 13:40:53,644] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 13:40:53,694] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 13:41:14,025] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 13:41:14,074] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 13:41:33,442] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 13:41:33,495] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 13:41:48,300] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 13:41:48,350] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 13:42:03,305] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 13:42:03,354] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 13:42:41,269] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 13:42:41,316] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 13:42:47,957] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 13:42:48,109] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 13:43:20,347] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 13:43:20,540] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 13:45:28,401] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 13:45:28,469] [WARNING] - FGSH_server: __init__() takes 1 positional argument but 2 were given
+[2021-03-05 13:45:28,469] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 14:00:29,715] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 14:00:29,783] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 14:00:42,082] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 14:00:42,145] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 14:06:04,676] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 14:06:04,738] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 14:06:30,232] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 14:06:30,307] [WARNING] - FGSH_server: 'NoneType' object does not support item assignment
+[2021-03-05 14:06:30,307] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 14:06:55,714] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 14:06:55,715] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 14:07:39,399] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 14:07:39,400] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 14:07:46,086] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 14:07:46,087] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 14:08:05,676] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 14:08:05,677] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 14:08:10,211] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 14:08:10,212] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 14:10:54,925] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 14:10:54,926] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 14:13:30,433] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 14:13:30,494] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 14:13:36,755] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 14:13:36,993] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 14:16:16,269] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 14:16:16,460] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 14:16:21,829] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 14:16:22,118] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 14:17:02,696] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 14:17:02,874] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 14:17:03,493] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 14:17:03,549] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 14:17:08,365] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 14:17:08,507] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 14:17:09,801] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 14:17:09,849] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 14:18:26,570] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 14:18:26,570] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 14:24:19,026] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 14:24:19,039] [WARNING] - FGSH_server: name 'os' is not defined
+[2021-03-05 14:24:19,039] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 14:24:31,453] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 14:24:31,466] [WARNING] - FGSH_server: module 'ntpath' has no attribute 'exist'
+[2021-03-05 14:24:31,466] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 14:24:56,921] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 14:24:56,934] [WARNING] - FGSH_server: name 'send_from_directory' is not defined
+[2021-03-05 14:24:56,934] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 14:25:16,844] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 14:25:16,857] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-05 14:25:16,857] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 14:26:29,835] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 14:26:29,837] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-05 14:26:29,837] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 14:26:50,704] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 14:26:50,707] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-05 14:26:50,707] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 14:26:57,628] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 14:26:57,630] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-05 14:26:57,630] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 14:27:48,831] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 14:27:48,845] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-05 14:27:48,845] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 14:28:03,340] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 14:28:03,400] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 14:29:40,732] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 14:29:40,903] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 14:31:32,742] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 14:31:32,756] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-05 14:31:32,756] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 14:32:12,283] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 14:32:12,298] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-05 14:32:12,298] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 14:32:33,492] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 14:32:33,506] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-05 14:32:33,506] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 14:34:49,706] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 14:34:49,720] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-05 14:34:49,720] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 14:35:00,990] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 14:35:01,002] [WARNING] - FGSH_server: 'File' object has no attribute 'name'
+[2021-03-05 14:35:01,002] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 14:35:18,176] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 14:35:18,191] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-05 14:35:18,191] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 14:35:41,186] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 14:35:41,200] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 14:35:52,031] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 14:35:52,078] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 14:36:04,253] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 14:36:04,266] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 14:36:12,856] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 14:36:12,870] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 14:47:50,774] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 14:47:50,788] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-05 14:47:50,788] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 14:48:41,893] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 14:48:41,907] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-05 14:48:41,907] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 14:50:23,338] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 14:50:23,350] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-05 14:50:23,351] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 15:00:30,851] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 15:00:30,865] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-05 15:00:30,865] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 15:02:52,888] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 15:02:52,902] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-05 15:02:52,902] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 15:04:04,201] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 15:04:04,426] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 15:04:42,516] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 15:04:42,529] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-05 15:04:42,529] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 15:05:10,781] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 15:05:10,795] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-05 15:05:10,795] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 15:05:28,336] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 15:05:28,349] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-05 15:05:28,349] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 15:05:39,148] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 15:05:39,343] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 15:11:05,682] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 15:11:05,889] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 15:11:24,854] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 15:11:24,856] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 15:57:10,108] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 15:57:10,121] [WARNING] - FGSH_server: remove() takes 1 positional argument but 2 were given
+[2021-03-05 15:57:10,121] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 15:57:57,784] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 15:57:57,889] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 15:58:01,647] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 15:58:01,653] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-05 15:58:01,653] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 16:01:05,737] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 16:01:05,956] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 16:01:23,717] [DEBUG] - FGSH_server: delete_file started
+[2021-03-05 16:01:23,737] [WARNING] - FGSH_server: remove() takes exactly 1 positional argument (2 given)
+[2021-03-05 16:01:23,737] [DEBUG] - FGSH_server: delete_file finished
+[2021-03-05 16:02:18,039] [DEBUG] - FGSH_server: delete_file started
+[2021-03-05 16:02:18,160] [DEBUG] - FGSH_server: delete_file finished
+[2021-03-05 16:03:52,654] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 16:03:52,813] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 16:03:58,251] [DEBUG] - FGSH_server: delete_file started
+[2021-03-05 16:03:58,355] [DEBUG] - FGSH_server: delete_file finished
+[2021-03-05 16:18:24,426] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 16:18:24,619] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 16:18:40,269] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 16:18:40,317] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 16:26:24,709] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 16:26:24,761] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 16:26:38,785] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 16:26:38,836] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 16:27:19,138] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 16:27:19,187] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 16:27:45,644] [DEBUG] - FGSH_server: update_file started
+[2021-03-05 16:27:45,881] [DEBUG] - FGSH_server: update_file finished
+[2021-03-05 16:28:16,446] [DEBUG] - FGSH_server: update_file started
+[2021-03-05 16:28:16,606] [DEBUG] - FGSH_server: update_file finished
+[2021-03-05 16:30:10,845] [DEBUG] - FGSH_server: update_file started
+[2021-03-05 16:30:11,026] [DEBUG] - FGSH_server: update_file finished
+[2021-03-05 16:30:23,813] [DEBUG] - FGSH_server: update_file started
+[2021-03-05 16:30:24,142] [DEBUG] - FGSH_server: update_file finished
+[2021-03-05 16:30:52,247] [DEBUG] - FGSH_server: update_file started
+[2021-03-05 16:30:52,383] [DEBUG] - FGSH_server: update_file finished
+[2021-03-05 16:32:32,076] [DEBUG] - FGSH_server: update_file started
+[2021-03-05 16:32:32,228] [DEBUG] - FGSH_server: update_file finished
+[2021-03-05 16:34:13,979] [DEBUG] - FGSH_server: update_file started
+[2021-03-05 16:34:14,087] [DEBUG] - FGSH_server: update_file finished

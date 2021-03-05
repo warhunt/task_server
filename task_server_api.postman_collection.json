@@ -1,0 +1,751 @@
+{
+	"info": {
+		"_postman_id": "18e0ef3f-4450-47eb-a3ea-704c77bf5208",
+		"name": "task_server_api",
+		"description": "task_server_api v1.0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Role",
+			"item": [
+				{
+					"name": "Create role",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"role\": \"admin\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_path}}/role/",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"role",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all roles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_path}}/role/",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"role",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete role",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_path}}/role/3",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"role",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update role",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"role\": \"ghfdgh\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_path}}/role/3",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"role",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get role",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_path}}/role/2",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"role",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Solution",
+			"item": [
+				{
+					"name": "Create solution",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"task_id\": 2,\r\n    \"done_user_id\": 2,\r\n    \"output_data\": {\r\n        \"param2\": 4\r\n    }\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_path}}/solution/",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"solution",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all solutions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_path}}/solution/",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"solution",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get solution",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_path}}/solution/1",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"solution",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete solution",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_path}}/solution/3",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"solution",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update solution",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"task_id\": 2,\r\n    \"done_user_id\": 2,\r\n    \"output_data\": {\r\n        \"param2\": 3\r\n    }\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_path}}/solution/3",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"solution",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Task",
+			"item": [
+				{
+					"name": "Get all tasks",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_path}}/task/",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"task",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Create task",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"from_user_id\": 1,\r\n    \"task_type_id\": 2,\r\n    \"input_data\": {\r\n        \"param1\": 5,\r\n        \"param2\": 1\r\n    }\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_path}}/task/",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"task",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get task",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_path}}/task/2",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"task",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete task",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_path}}/task/1",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"task",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update task",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"from_user_id\": 2,\r\n    \"task_type_id\": 2,\r\n    \"input_data\": {\r\n        \"param1\": 1.2,\r\n        \"param2\": 1\r\n    }\r\n    \r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_path}}/task/2",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"task",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Task type",
+			"item": [
+				{
+					"name": "Create task type",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"енгаенг чисел\",\r\n    \"input_data_type\": {\r\n        \"param1\": {\r\n            \"type\": \"int\",\r\n            \"desc\": \"какое то целое число\"\r\n        },\r\n        \"param2\": {\r\n            \"type\": \"int\",\r\n            \"desc\": \"какое то целое число\"\r\n        }\r\n    },\r\n    \"output_data_type\": {\r\n        \"param2\": {\r\n            \"type\": \"int\",\r\n            \"desc\": \"какое то целое число\"\r\n        }\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_path}}/taskType/",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"taskType",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all task type",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_path}}/taskType/",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"taskType",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete task type",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_path}}/taskType/3",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"taskType",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get task type",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_path}}/taskType/2",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"taskType",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update task type",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\": \"задача 2\",\r\n    \"input_data_type\": {\r\n        \"param1\": {\r\n            \"type\": \"float\",\r\n            \"desc\": \"какое то вещ число\"\r\n        },\r\n        \"param2\": {\r\n            \"type\": \"int\",\r\n            \"desc\": \"какое то целое число\"\r\n        }\r\n    },\r\n    \"output_data_type\": {\r\n        \"param2\": {\r\n            \"type\": \"int\",\r\n            \"desc\": \"какое то целое число\"\r\n        }\r\n    }\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_path}}/taskType/3",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"taskType",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Create user",
+					"protocolProfileBehavior": {
+						"disabledSystemHeaders": {}
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"login\": \"уке\",\r\n    \"password\": \"уке\",\r\n    \"role_id\": 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_path}}/user/",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"user",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"login\": \"admin\",\r\n    \"password\": \"admin\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_path}}/user/login",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"user",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Logout",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_path}}/user/logout",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"user",
+								"logout"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Test jwt",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTYxMzgyODc2MCwianRpIjoiOTFiM2UyNzAtZWZhYy00OTRiLTkxZDItNjM0NWYyODRlYmYzIiwibmJmIjoxNjEzODI4NzYwLCJ0eXBlIjoiYWNjZXNzIiwic3ViIjoiYWRtaW4iLCJleHAiOjE2MTM4Mjk2NjB9.VEioXcP3c39DeqjYvr3k35NKuaTOJOoYdvk8Gw8M1zE",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_path}}/user/protect",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"user",
+								"protect"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get all users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_path}}/user/",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"user",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get user",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_path}}/user/2",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"user",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete user",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_path}}/user/3",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"user",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Update user",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"login\": \"еенг\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{base_path}}/user/3",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"user",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "File",
+			"item": [
+				{
+					"name": "Create file",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/C:/Users/Nikolay/Downloads/1238-2218-1-SM.pdf"
+								},
+								{
+									"key": "from_user_id",
+									"value": "1",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{base_path}}/file/",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"file",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get file",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{base_path}}/file/2",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"file",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete file",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{base_path}}/file/2",
+							"host": [
+								"{{base_path}}"
+							],
+							"path": [
+								"file",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "base_path",
+			"value": "http://127.0.0.1:5000/api"
+		}
+	]
+}
