@@ -31,8 +31,8 @@ def get_all_users():
         return create_respons(data=all_users)
 
 @logging_decorator
-def delete_user(id):
-    existing_user = User.query.get_or_404(id)
+def delete_user(user_id):
+    existing_user = User.query.get_or_404(user_id)
    
     db.session.delete(existing_user)
     db.session.commit()
@@ -40,10 +40,10 @@ def delete_user(id):
     return create_respons(message="User is deleted")
 
 @logging_decorator
-def update_user(id):
+def update_user(user_id):
     body = request.get_json()
 
-    existing_user = User.query.get_or_404(id)
+    existing_user = User.query.get_or_404(user_id)
 
     if User.query.filter_by(id=existing_user.id).update({**body}):
         if 'password' in body.keys():
@@ -55,8 +55,8 @@ def update_user(id):
     return create_respons(message="User is updated")
 
 @logging_decorator
-def get_user(id):
-    existing_user = User.query.get_or_404(id)
+def get_user(user_id):
+    existing_user = User.query.get_or_404(user_id)
     return create_respons(data=existing_user)
 
 @logging_decorator

@@ -1286,3 +1286,133 @@ WHERE user.login = ?
 [2021-03-05 16:58:16,123] [DEBUG] - FGSH_server: create_file finished
 [2021-03-05 16:59:27,286] [DEBUG] - FGSH_server: create_file started
 [2021-03-05 16:59:27,454] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 17:02:39,595] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 17:02:39,608] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-05 17:02:39,608] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 17:02:43,501] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 17:02:43,688] [DEBUG] - FGSH_server: get_file finished
+[2021-03-05 17:03:00,251] [DEBUG] - FGSH_server: create_file started
+[2021-03-05 17:03:00,469] [DEBUG] - FGSH_server: create_file finished
+[2021-03-05 17:03:04,498] [DEBUG] - FGSH_server: get_file started
+[2021-03-05 17:03:04,511] [DEBUG] - FGSH_server: get_file finished
+[2021-03-17 17:45:44,807] [DEBUG] - FGSH_server: create_role started
+[2021-03-17 17:45:45,061] [DEBUG] - FGSH_server: create_role finished
+[2021-03-17 17:52:54,356] [DEBUG] - FGSH_server: create_role started
+[2021-03-17 17:52:54,517] [DEBUG] - FGSH_server: create_role finished
+[2021-03-17 17:54:07,020] [DEBUG] - FGSH_server: create_role started
+[2021-03-17 17:54:07,029] [DEBUG] - FGSH_server: create_role finished
+[2021-03-18 13:38:52,227] [DEBUG] - FGSH_server: get_all_roles started
+[2021-03-18 13:38:52,256] [DEBUG] - FGSH_server: get_all_roles finished
+[2021-03-18 13:39:01,310] [DEBUG] - FGSH_server: get_all_solution started
+[2021-03-18 13:39:01,312] [DEBUG] - FGSH_server: get_all_solution finished
+[2021-03-18 13:45:17,095] [DEBUG] - FGSH_server: get_all_roles started
+[2021-03-18 13:45:17,097] [DEBUG] - FGSH_server: get_all_roles finished
+[2021-03-18 13:53:55,170] [DEBUG] - FGSH_server: create_role started
+[2021-03-18 13:53:55,171] [WARNING] - FGSH_server: 'NoneType' object is not subscriptable
+[2021-03-18 13:53:55,171] [DEBUG] - FGSH_server: create_role finished
+[2021-03-18 14:02:22,066] [DEBUG] - FGSH_server: get_role started
+[2021-03-18 14:02:22,079] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-18 14:02:22,079] [DEBUG] - FGSH_server: get_role finished
+[2021-03-18 14:03:05,581] [DEBUG] - FGSH_server: create_role started
+[2021-03-18 14:03:05,581] [WARNING] - FGSH_server: 'NoneType' object is not subscriptable
+[2021-03-18 14:03:05,581] [DEBUG] - FGSH_server: create_role finished
+[2021-03-18 14:06:06,811] [DEBUG] - FGSH_server: get_role started
+[2021-03-18 14:06:06,813] [DEBUG] - FGSH_server: get_role finished
+[2021-03-18 14:06:34,643] [DEBUG] - FGSH_server: get_all_roles started
+[2021-03-18 14:06:34,645] [DEBUG] - FGSH_server: get_all_roles finished
+[2021-03-18 14:19:40,445] [DEBUG] - FGSH_server: get_role started
+[2021-03-18 14:19:40,447] [DEBUG] - FGSH_server: get_role finished
+[2021-03-18 14:21:45,094] [DEBUG] - FGSH_server: delete_role started
+[2021-03-18 14:21:45,216] [DEBUG] - FGSH_server: delete_role finished
+[2021-03-18 14:39:34,069] [DEBUG] - FGSH_server: create_role started
+[2021-03-18 14:39:34,197] [DEBUG] - FGSH_server: create_role finished
+[2021-03-18 14:39:44,565] [DEBUG] - FGSH_server: update_role started
+[2021-03-18 14:39:44,680] [DEBUG] - FGSH_server: update_role finished
+[2021-03-19 15:04:33,327] [DEBUG] - FGSH_server: get_file started
+[2021-03-19 15:04:33,362] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-19 15:04:33,362] [DEBUG] - FGSH_server: get_file finished
+[2021-03-19 15:05:37,759] [DEBUG] - FGSH_server: create_role started
+[2021-03-19 15:05:37,890] [DEBUG] - FGSH_server: create_role finished
+[2021-03-19 15:05:47,183] [DEBUG] - FGSH_server: create_user started
+[2021-03-19 15:05:47,476] [DEBUG] - FGSH_server: create_user finished
+[2021-03-19 15:05:59,456] [DEBUG] - FGSH_server: create_file started
+[2021-03-19 15:05:59,682] [DEBUG] - FGSH_server: create_file finished
+[2021-03-19 15:06:06,285] [DEBUG] - FGSH_server: get_file started
+[2021-03-19 15:06:06,566] [DEBUG] - FGSH_server: get_file finished
+[2021-03-19 15:16:28,028] [DEBUG] - FGSH_server: get_file started
+[2021-03-19 15:16:28,031] [DEBUG] - FGSH_server: get_file finished
+[2021-03-19 15:16:34,164] [DEBUG] - FGSH_server: get_file started
+[2021-03-19 15:16:34,168] [DEBUG] - FGSH_server: get_file finished
+[2021-03-19 15:19:17,163] [DEBUG] - FGSH_server: create_file started
+[2021-03-19 15:19:17,308] [DEBUG] - FGSH_server: create_file finished
+[2021-03-19 15:19:47,529] [DEBUG] - FGSH_server: delete_file started
+[2021-03-19 15:19:47,683] [DEBUG] - FGSH_server: delete_file finished
+[2021-03-19 15:20:14,032] [DEBUG] - FGSH_server: create_file started
+[2021-03-19 15:20:14,033] [DEBUG] - FGSH_server: create_file finished
+[2021-03-19 15:20:40,093] [DEBUG] - FGSH_server: create_file started
+[2021-03-19 15:20:40,248] [DEBUG] - FGSH_server: create_file finished
+[2021-03-19 15:21:40,338] [DEBUG] - FGSH_server: delete_file started
+[2021-03-19 15:21:40,485] [DEBUG] - FGSH_server: delete_file finished
+[2021-03-19 15:29:30,741] [DEBUG] - FGSH_server: create_file started
+[2021-03-19 15:29:30,867] [DEBUG] - FGSH_server: create_file finished
+[2021-03-19 15:29:37,695] [DEBUG] - FGSH_server: get_file started
+[2021-03-19 15:29:37,942] [DEBUG] - FGSH_server: get_file finished
+[2021-03-19 15:29:59,729] [DEBUG] - FGSH_server: get_file started
+[2021-03-19 15:29:59,732] [DEBUG] - FGSH_server: get_file finished
+[2021-03-19 16:07:49,001] [DEBUG] - FGSH_server: get_file started
+[2021-03-19 16:07:49,248] [DEBUG] - FGSH_server: get_file finished
+[2021-03-19 16:09:08,195] [DEBUG] - FGSH_server: create_file started
+[2021-03-19 16:09:08,379] [DEBUG] - FGSH_server: create_file finished
+[2021-03-19 16:09:36,164] [DEBUG] - FGSH_server: get_file started
+[2021-03-19 16:09:36,180] [DEBUG] - FGSH_server: get_file finished
+[2021-03-19 18:12:37,498] [DEBUG] - FGSH_server: get_all_users started
+[2021-03-19 18:12:37,537] [DEBUG] - FGSH_server: get_all_users finished
+[2021-03-19 18:13:05,613] [DEBUG] - FGSH_server: create_role started
+[2021-03-19 18:13:05,730] [DEBUG] - FGSH_server: create_role finished
+[2021-03-19 18:13:13,031] [DEBUG] - FGSH_server: create_role started
+[2021-03-19 18:13:13,042] [DEBUG] - FGSH_server: create_role finished
+[2021-03-19 18:13:51,520] [DEBUG] - FGSH_server: get_all_task_type started
+[2021-03-19 18:13:51,538] [DEBUG] - FGSH_server: get_all_task_type finished
+[2021-03-19 18:14:06,118] [DEBUG] - FGSH_server: create_task_type started
+[2021-03-19 18:14:06,230] [DEBUG] - FGSH_server: create_task_type finished
+[2021-03-19 18:14:24,388] [DEBUG] - FGSH_server: delete_file started
+[2021-03-19 18:14:24,388] [WARNING] - FGSH_server: delete_file() got an unexpected keyword argument 'file_id'
+[2021-03-19 18:14:24,388] [DEBUG] - FGSH_server: delete_file finished
+[2021-03-19 18:15:07,964] [DEBUG] - FGSH_server: delete_file started
+[2021-03-19 18:15:07,964] [WARNING] - FGSH_server: delete_file() got an unexpected keyword argument 'file_id'
+[2021-03-19 18:15:07,964] [DEBUG] - FGSH_server: delete_file finished
+[2021-03-19 18:15:24,094] [DEBUG] - FGSH_server: get_file started
+[2021-03-19 18:15:24,094] [WARNING] - FGSH_server: get_file() got an unexpected keyword argument 'file_id'
+[2021-03-19 18:15:24,094] [DEBUG] - FGSH_server: get_file finished
+[2021-03-19 18:16:00,108] [DEBUG] - FGSH_server: get_role started
+[2021-03-19 18:16:00,108] [WARNING] - FGSH_server: get_role() got an unexpected keyword argument 'role_id'
+[2021-03-19 18:16:00,108] [DEBUG] - FGSH_server: get_role finished
+[2021-03-19 18:17:10,127] [DEBUG] - FGSH_server: get_role started
+[2021-03-19 18:17:10,146] [DEBUG] - FGSH_server: get_role finished
+[2021-03-19 18:26:06,883] [DEBUG] - FGSH_server: get_role started
+[2021-03-19 18:26:06,901] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-19 18:26:06,901] [DEBUG] - FGSH_server: get_role finished
+[2021-03-19 18:28:08,562] [DEBUG] - FGSH_server: get_file started
+[2021-03-19 18:28:08,845] [DEBUG] - FGSH_server: get_file finished
+[2021-03-19 18:28:24,782] [DEBUG] - FGSH_server: get_file started
+[2021-03-19 18:28:24,784] [DEBUG] - FGSH_server: get_file finished
+[2021-03-19 18:28:55,038] [DEBUG] - FGSH_server: get_task started
+[2021-03-19 18:28:55,060] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-19 18:28:55,060] [DEBUG] - FGSH_server: get_task finished
+[2021-03-19 18:30:19,113] [DEBUG] - FGSH_server: get_task_type started
+[2021-03-19 18:30:19,116] [DEBUG] - FGSH_server: get_task_type finished
+[2021-03-19 18:30:32,535] [DEBUG] - FGSH_server: get_user started
+[2021-03-19 18:30:32,539] [DEBUG] - FGSH_server: get_user finished
+[2021-03-19 18:30:39,811] [DEBUG] - FGSH_server: get_user started
+[2021-03-19 18:30:39,813] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-19 18:30:39,813] [DEBUG] - FGSH_server: get_user finished
+[2021-03-19 18:31:13,642] [DEBUG] - FGSH_server: get_user started
+[2021-03-19 18:31:13,644] [DEBUG] - FGSH_server: get_user finished
+[2021-03-19 18:31:13,647] [DEBUG] - FGSH_server: get_user started
+[2021-03-19 18:31:13,649] [DEBUG] - FGSH_server: get_user finished
+[2021-03-19 18:31:18,673] [DEBUG] - FGSH_server: get_user started
+[2021-03-19 18:31:18,675] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-19 18:31:18,675] [DEBUG] - FGSH_server: get_user finished
+[2021-03-19 18:43:50,774] [DEBUG] - FGSH_server: get_user started
+[2021-03-19 18:43:50,791] [WARNING] - FGSH_server: 404 Not Found: The requested URL was not found on the server. If you entered the URL manually please check your spelling and try again.
+[2021-03-19 18:43:50,791] [DEBUG] - FGSH_server: get_user finished

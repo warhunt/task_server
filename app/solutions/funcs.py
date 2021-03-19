@@ -23,18 +23,18 @@ def get_all_solution():
         return create_respons(data=all_solution)
 
 @logging_decorator    
-def delete_solution(id):
-    existing_solution = Solution.query.get_or_404(id)
+def delete_solution(solution_id):
+    existing_solution = Solution.query.get_or_404(solution_id)
    
     db.session.delete(existing_solution)
     db.session.commit()
     return create_respons(message="Solution is deleted")
 
 @logging_decorator
-def update_solution(id):
+def update_solution(solution_id):
     body = request.get_json()
 
-    existing_solution = Solution.query.get_or_404(id)
+    existing_solution = Solution.query.get_or_404(solution_id)
 
     if Solution.query.filter_by(id=existing_solution.id).update({**body}):
         db.session.commit()
@@ -44,6 +44,6 @@ def update_solution(id):
     return create_respons(message="Role is updated")
 
 @logging_decorator
-def get_solution(id):
-    existing_solution = Solution.query.get_or_404(id)
+def get_solution(solution_id):
+    existing_solution = Solution.query.get_or_404(solution_id)
     return create_respons(data=existing_solution)

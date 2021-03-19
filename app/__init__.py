@@ -5,6 +5,7 @@ from logging.config import dictConfig
 from flask import Flask
 from flask_debugtoolbar import DebugToolbarExtension
 from flask_cors import CORS
+import connexion
 
 from app.database import db
 from app.jwt import jwt
@@ -17,33 +18,37 @@ import app.files.controllers as files
 
 def create_app():
 
-    app = Flask(__name__)
-    app.config.from_object(os.getenv('APP_SETTINGS'))
+    #app = Flask(__name__)
+    app = connexion.FlaskApp(__name__, specification_dir='openapi/')
+    app.add_api('openapi.yaml')
+    application = app.app
 
-    cors = CORS(app, resources={r"/api/*": {"origins": "*"}})
+    application.config.from_object(os.getenv('APP_SETTINGS'))
 
-    dictConfig(app.config['LOGGING'])
-    app.logger = logging.getLogger(app.config['LOGGER_NAME'])
-    db.init_app(app)
+    cors = CORS(application, resources={r"/api/*": {"origins": "*"}})
+
+    dictConfig(application.config['LOGGING'])
+    application.logger = logging.getLogger(application.config['LOGGER_NAME'])
+    db.init_app(application)
     
-    jwt.init_app(app)
+    jwt.init_app(application)
     
-    with app.app_context():
+    with application.app_context():
         db.create_all()
         
 
-    if app.debug == True:
+    if application.debug == True:
         try:
-            toolbar = DebugToolbarExtension(app)
+            toolbar = DebugToolbarExtension(application)
         except:
             pass
     
     
-    app.register_blueprint(users.module)
-    app.register_blueprint(roles.module)
-    app.register_blueprint(task_types.module)
-    app.register_blueprint(tasks.module)
-    app.register_blueprint(solutions.module)
-    app.register_blueprint(files.module)
+    application.register_blueprint(users.module)
+    application.register_blueprint(roles.module)
+    application.register_blueprint(task_types.module)
+    application.register_blueprint(tasks.module)
+    application.register_blueprint(solutions.module)
+    application.register_blueprint(files.module)
 
     return app

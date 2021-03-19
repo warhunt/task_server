@@ -11,12 +11,12 @@ def create_get_all_taskType():
     else:
         return funcs.get_all_task_type()
 
-@module.route('/<int:task_type_id>', methods=['DELETE', 'PUT', 'GET'])
-def delete_update_get_taskType(task_type_id):
+@module.route('/<int:taskType_id>', methods=['DELETE', 'PUT', 'GET'])
+def delete_update_get_taskType(taskType_id):
     if request.method == 'DELETE':
-        return funcs.delete_task_type(task_type_id)
+        return funcs.delete_task_type(taskType_id)
     elif request.method == 'PUT':
-        return funcs.update_task_type(task_type_id)
+        return funcs.update_task_type(taskType_id)
     else:
-        return funcs.get_task_type(task_type_id)
+        return funcs.get_task_type(taskType_id)
 

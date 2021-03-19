@@ -15,4 +15,5 @@ to run the application in debug mode:
 4) To run the application, execute the command:
       - python manage.py runserver
       
-
+URL for API Doc:
+      basepath/api/ui

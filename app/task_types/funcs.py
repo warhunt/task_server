@@ -29,8 +29,8 @@ def get_all_task_type():
         return create_respons(data=all_task_types)
 
 @logging_decorator
-def delete_task_type(id):
-    existing_task_type = TaskType.query.get_or_404(id)
+def delete_task_type(taskType_id):
+    existing_task_type = TaskType.query.get_or_404(taskType_id)
    
     db.session.delete(existing_task_type)
     db.session.commit()
@@ -38,10 +38,10 @@ def delete_task_type(id):
     return create_respons(message="Task type is deleted")
 
 @logging_decorator
-def update_task_type(id):
+def update_task_type(taskType_id):
     body = request.get_json()
 
-    existing_task_type = TaskType.query.get_or_404(id)
+    existing_task_type = TaskType.query.get_or_404(taskType_id)
 
     if TaskType.query.filter_by(id=existing_task_type.id).update({**body}):
         db.session.commit()
@@ -51,7 +51,7 @@ def update_task_type(id):
     return create_respons(message="Task type is updated")
 
 @logging_decorator
-def get_task_type(id):
-    existing_task_type = TaskType.query.get_or_404(id)
+def get_task_type(taskType_id):
+    existing_task_type = TaskType.query.get_or_404(taskType_id)
     return create_respons(data=existing_task_type)
 
