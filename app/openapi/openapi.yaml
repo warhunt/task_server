@@ -1,0 +1,1000 @@
+openapi: 3.0.0
+info:
+  description: This is a sample FSGH server
+  version: 1.0.0
+  title: FGSH_server
+tags:
+  - name: role
+    description: Everything about role
+  - name: user
+    description: Everything about user
+  - name: taskType
+    description: Everything about taskType
+  - name: task
+    description: Everything about task
+  - name: solution
+    description: Everything about solution
+  - name: file
+    description: Everything about solution
+paths:
+  /role:
+    post:
+      tags:
+        - role
+      summary: Add a new role
+      description: ''
+      operationId: app.roles.funcs.create_role
+      requestBody:
+        $ref: '#/components/requestBodies/addRoleBody'
+      responses:
+        '201':
+          description: Role is created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: Role is created
+    get:
+      tags:
+        - role
+      summary: Get all roles
+      description: ''
+      operationId: app.roles.funcs.get_all_roles
+      responses:
+        '200':
+          description: All roles
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Roles'
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: ''
+  '/role/{role_id}':
+    get:
+      tags:
+        - role
+      summary: Get role by roleId
+      description: ''
+      operationId: app.roles.funcs.get_role
+      parameters:
+        - $ref: '#/components/parameters/role_id'
+      responses:
+        '200':
+          description: Role with ID pet_id
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Role'
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: ''
+    delete:
+      tags:
+        - role
+      summary: Delete role by roleId
+      description: ''
+      operationId: app.roles.funcs.delete_role
+      parameters:
+        - $ref: '#/components/parameters/role_id'
+      responses:
+        '200':
+          description: Role is deleted
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: Role is deleted
+    put:
+      tags:
+        - role
+      summary: Update role by roleId
+      description: ''
+      operationId: app.roles.funcs.update_role
+      parameters:
+        - $ref: '#/components/parameters/role_id'
+      requestBody:
+        $ref: '#/components/requestBodies/addRoleBody'
+      responses:
+        '200':
+          description: Role is updated
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: Role is updated
+  /user:
+    post:
+      tags:
+        - user
+      summary: Create user
+      description: ''
+      operationId: app.users.funcs.create_user
+      requestBody:
+        $ref: '#/components/requestBodies/addUserBody'
+      responses:
+        '200':
+          description: User is created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: User is created
+    get:
+      tags:
+        - user
+      summary: Get all users
+      description: ''
+      operationId: app.users.funcs.get_all_users
+      responses:
+        '200':
+          description: All users
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Users'
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: ''
+  '/user/{user_id}':
+    get:
+      tags:
+        - user
+      summary: Get user by userId
+      description: ''
+      operationId: app.users.funcs.get_user
+      parameters:
+        - $ref: '#/components/parameters/user_id'
+      responses:
+        '200':
+          description: User with ID roleId
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/User'
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: ''
+    delete:
+      tags:
+        - user
+      summary: Delete user by roleId
+      description: ''
+      operationId: app.users.funcs.delete_user
+      parameters:
+        - $ref: '#/components/parameters/user_id'
+      responses:
+        '200':
+          description: User is deleted
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: User is deleted
+    put:
+      tags:
+        - user
+      summary: Update user by userId
+      description: ''
+      operationId: app.users.funcs.update_user
+      parameters:
+        - $ref: '#/components/parameters/user_id'
+      requestBody:
+        $ref: '#/components/requestBodies/addUserBody'
+      responses:
+        '200':
+          description: Role is updated
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: Role is updated
+  /taskType:
+    post:
+      tags:
+        - taskType
+      summary: Create taskType
+      description: ''
+      operationId: app.task_types.funcs.create_task_type
+      requestBody:
+        $ref: '#/components/requestBodies/addTaskTypeBody'
+      responses:
+        '200':
+          description: taskType is created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: taskType is created
+    get:
+      tags:
+        - taskType
+      summary: Get all taskType
+      description: ''
+      operationId: app.task_types.funcs.get_all_task_type
+      responses:
+        '200':
+          description: All taskType
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/TaskTypes'
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: ''
+  '/taskType/{taskType_id}':
+    get:
+      tags:
+        - taskType
+      summary: Get taskType by taskType_id
+      description: ''
+      operationId: app.task_types.funcs.get_task_type
+      parameters:
+        - $ref: '#/components/parameters/taskType_id'
+      responses:
+        '200':
+          description: taskType with ID taskType_id
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/TaskType'
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: ''
+    delete:
+      tags:
+        - taskType
+      summary: Delete taskType by taskTypeId
+      description: ''
+      operationId: app.task_types.funcs.delete_task_type
+      parameters:
+        - $ref: '#/components/parameters/taskType_id'
+      responses:
+        '200':
+          description: taskType is deleted
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: taskType is deleted
+    put:
+      tags:
+        - taskType
+      summary: Update taskType by taskTypeId
+      description: ''
+      operationId: app.task_types.funcs.update_task_type
+      parameters:
+        - $ref: '#/components/parameters/taskType_id'
+      requestBody:
+        $ref: '#/components/requestBodies/addTaskTypeBody'
+      responses:
+        '200':
+          description: taskType is updated
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: taskType is updated
+  /task:
+    post:
+      tags:
+        - task
+      summary: Create task
+      description: ''
+      operationId: app.tasks.funcs.create_task
+      requestBody:
+        $ref: '#/components/requestBodies/addTaskBody'
+      responses:
+        '200':
+          description: task is created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: task is created
+    get:
+      tags:
+        - task
+      summary: Get all task
+      description: ''
+      operationId: app.tasks.funcs.get_all_task
+      responses:
+        '200':
+          description: All task
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Tasks'
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: ''
+  '/task/{task_id}':
+    get:
+      tags:
+        - task
+      summary: Get task by task_id
+      description: ''
+      operationId: app.tasks.funcs.get_task
+      parameters:
+        - $ref: '#/components/parameters/task_id'
+      responses:
+        '200':
+          description: task with ID task_id
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Task'
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: ''
+    delete:
+      tags:
+        - task
+      summary: Delete task by task_id
+      description: ''
+      operationId: app.tasks.funcs.delete_task
+      parameters:
+        - $ref: '#/components/parameters/task_id'
+      responses:
+        '200':
+          description: task is deleted
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: task is deleted
+    put:
+      tags:
+        - task
+      summary: Update task by task_id
+      description: ''
+      operationId: app.tasks.funcs.update_task
+      parameters:
+        - $ref: '#/components/parameters/task_id'
+      requestBody:
+        $ref: '#/components/requestBodies/addTaskBody'
+      responses:
+        '200':
+          description: task is updated
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: task is updated
+  /solution:
+    post:
+      tags:
+        - solution
+      summary: Create solution
+      description: ''
+      operationId: app.solutions.funcs.create_solution
+      requestBody:
+        $ref: '#/components/requestBodies/addSolutionBody'
+      responses:
+        '200':
+          description: solution is created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: solution is created
+    get:
+      tags:
+        - solution
+      summary: Get all task
+      description: ''
+      operationId: app.solutions.funcs.get_all_solution
+      responses:
+        '200':
+          description: All solution
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Solutions'
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: ''
+  '/solution/{solution_id}':
+    get:
+      tags:
+        - solution
+      summary: Get solution by solution_id
+      description: ''
+      operationId: app.solutions.funcs.get_solution
+      parameters:
+        - $ref: '#/components/parameters/solution_id'
+      responses:
+        '200':
+          description: solution with ID solution_id
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: '#/components/schemas/Solution'
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: ''
+    delete:
+      tags:
+        - solution
+      summary: Delete solution by solution_id
+      description: ''
+      operationId: app.solutions.funcs.delete_solution
+      parameters:
+        - $ref: '#/components/parameters/solution_id'
+      responses:
+        '200':
+          description: solution is deleted
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: solution is deleted
+    put:
+      tags:
+        - solution
+      summary: Update solution by solution_id
+      description: ''
+      operationId: app.solutions.funcs.update_solution
+      parameters:
+        - $ref: '#/components/parameters/solution_id'
+      requestBody:
+        $ref: '#/components/requestBodies/addSolutionBody'
+      responses:
+        '200':
+          description: solution is updated
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: solution is updated
+  /file:
+    post:
+      tags:
+        - file
+      summary: Create file
+      description: ''
+      operationId: app.files.funcs.create_file
+      requestBody:
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                from_user_id:
+                  type: integer
+                fileName:
+                  type: string
+                  format: binary
+      responses:
+        '200':
+          description: file is created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: file is created
+  '/file/{file_id}':
+    get:
+      tags:
+        - file
+      summary: Get file by file_id
+      description: ''
+      operationId: app.files.funcs.get_file
+      parameters:
+        - $ref: '#/components/parameters/file_id'
+      responses:
+        '200':
+          description: file with ID file_id
+          content:
+            image/jpeg:
+              schema:
+                type: string
+                format: byte
+            image/gif:
+              schema:
+                type: string
+                format: byte
+            image/png:
+              schema:
+                type: string
+                format: byte
+            application/pdf:
+              schema:
+                type: string
+                format: byte
+    delete:
+      tags:
+        - file
+      summary: Delete file by file_id
+      description: ''
+      operationId: app.files.funcs.delete_file
+      parameters:
+        - $ref: '#/components/parameters/file_id'
+      responses:
+        '200':
+          description: file is deleted
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                  error:
+                    type: integer
+                  message:
+                    type: string
+                    example: file is deleted
+servers:
+  - url: 'http://localhost:5000/api'
+components:
+  requestBodies:
+    addRoleBody:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Role'
+      description: Role object that needs to be added to the store
+      required: true
+    addUserBody:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/User'
+      description: User object that needs to be added to the store
+      required: true
+    addTaskTypeBody:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/TaskType'
+      description: TaskType object that needs to be added to the store
+      required: true
+    addTaskBody:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Task'
+      description: Task object that needs to be added to the store
+      required: true
+    addSolutionBody:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/Solution'
+      description: Task object that needs to be added to the store
+      required: true
+    addFileBody:
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/File'
+      description: Task object that needs to be added to the store
+      required: true
+  parameters:
+    role_id:
+      name: role_id
+      description: Role's Unique identifier
+      in: path
+      required: true
+      schema:
+        type: integer
+    user_id:
+      name: user_id
+      description: User's Unique identifier
+      in: path
+      required: true
+      schema:
+        type: integer
+    taskType_id:
+      name: taskType_id
+      description: taskType's Unique identifier
+      in: path
+      required: true
+      schema:
+        type: integer
+    task_id:
+      name: task_id
+      description: Task's Unique identifier
+      in: path
+      required: true
+      schema:
+        type: integer
+    solution_id:
+      name: solution_id
+      description: Solution's Unique identifier
+      in: path
+      required: true
+      schema:
+        type: integer
+    file_id:
+      name: file_id
+      description: File's Unique identifier
+      in: path
+      required: true
+      schema:
+        type: integer
+  schemas:
+    Role:
+      type: object
+      required:
+        - role
+      properties:
+        created_on:
+          type: string
+          example: 'Wed, 17 Mar 2021 14:45:44 GMT'
+          readOnly: true
+        id:
+          type: integer
+          example: 1
+          readOnly: true
+        role:
+          type: string
+          example: admin
+        updated_on:
+          type: string
+          example: 'Wed, 17 Mar 2021 14:45:44 GMT'
+          readOnly: true
+    Roles:
+      type: array
+      items:
+        $ref: '#/components/schemas/Role'
+    User:
+      type: object
+      required:
+        - login
+        - password
+        - role_id
+      properties:
+        created_on:
+          type: string
+          example: 'Wed, 17 Mar 2021 14:45:44 GMT'
+          readOnly: true
+        id:
+          type: integer
+          example: 1
+          readOnly: true
+        updated_on:
+          type: string
+          example: 'Wed, 17 Mar 2021 14:45:44 GMT'
+          readOnly: true
+        login:
+          type: string
+          example: admin
+        password:
+          type: string
+          example: admin
+        role_id:
+          type: integer
+          example: 1
+    Users:
+      type: array
+      items:
+        $ref: '#/components/schemas/User'
+    TaskType:
+      type: object
+      required:
+        - name
+        - output_data_type
+        - input_data_type
+      properties:
+        created_on:
+          type: string
+          example: 'Wed, 17 Mar 2021 14:45:44 GMT'
+          readOnly: true
+        id:
+          type: integer
+          example: 1
+          readOnly: true
+        updated_on:
+          type: string
+          example: 'Wed, 17 Mar 2021 14:45:44 GMT'
+          readOnly: true
+        name:
+          type: string
+          example: distance from to
+        input_data_type:
+          $ref: '#/components/schemas/Parameters'
+        output_data_type:
+          $ref: '#/components/schemas/Parameters'
+    TaskTypes:
+      type: array
+      items:
+        $ref: '#/components/schemas/TaskType'
+    Task:
+      type: object
+      required:
+        - from_user_id
+        - task_type_id
+        - input_data
+      properties:
+        created_on:
+          type: string
+          example: 'Wed, 17 Mar 2021 14:45:44 GMT'
+          readOnly: true
+        id:
+          type: integer
+          example: 1
+          readOnly: true
+        updated_on:
+          type: string
+          example: 'Wed, 17 Mar 2021 14:45:44 GMT'
+          readOnly: true
+        from_user_id:
+          type: integer
+          example: 1
+        task_type_id:
+          type: integer
+          example: 1
+        input_data:
+          type: array
+          items:
+            $ref: '#/components/schemas/Value'
+    Tasks:
+      type: array
+      items:
+        $ref: '#/components/schemas/Task'
+    Solution:
+      type: object
+      required:
+        - task_id
+        - done_user_id
+        - output_data
+      properties:
+        created_on:
+          type: string
+          example: 'Wed, 17 Mar 2021 14:45:44 GMT'
+          readOnly: true
+        id:
+          type: integer
+          example: 1
+          readOnly: true
+        updated_on:
+          type: string
+          example: 'Wed, 17 Mar 2021 14:45:44 GMT'
+          readOnly: true
+        task_id:
+          type: integer
+          example: 1
+        done_user_id:
+          type: integer
+          example: 1
+        output_data:
+          type: array
+          items:
+            $ref: '#/components/schemas/Value'
+    Solutions:
+      type: array
+      items:
+        $ref: '#/components/schemas/Solution'
+    File:
+      type: object
+      required:
+        - from_user_id
+        - file
+      properties:
+        created_on:
+          type: string
+          example: 'Wed, 17 Mar 2021 14:45:44 GMT'
+          readOnly: true
+        id:
+          type: integer
+          example: 1
+          readOnly: true
+        updated_on:
+          type: string
+          example: 'Wed, 17 Mar 2021 14:45:44 GMT'
+          readOnly: true
+        file:
+          type: string
+          format: byte
+        from_user_id:
+          type: integer
+          example: 1
+    Value:
+      type: object
+      required:
+        - param_name
+        - param_value
+      properties:
+        param_name:
+          type: string
+          example: x
+        param_value:
+          oneOf:
+            - type: string
+              example: Минск
+            - type: integer
+              example: 15
+            - type: number
+              example: 1.5
+            - type: object
+    Parameter:
+      type: object
+      required:
+        - param_name
+        - param_type
+        - desc
+      properties:
+        param_name:
+          type: string
+          example: x
+        param_type:
+          type: string
+          example: int
+          enum:
+            - string
+            - int
+            - float
+            - bool
+        desc:
+          type: string
+          example: Any number
+    Parameters:
+      type: array
+      items:
+        $ref: '#/components/schemas/Parameter'

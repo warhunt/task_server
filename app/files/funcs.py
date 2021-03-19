@@ -29,8 +29,8 @@ def create_file():
     return create_respons(message="File is created")
 
 @logging_decorator
-def get_file(id):
-    existing_file = File.query.get_or_404(id)
+def get_file(file_id):
+    existing_file = File.query.get_or_404(file_id)
 
     file_path = os.path.join(current_app.config['UPLOAD_FOLDER'], existing_file.file_name)
 
@@ -42,8 +42,8 @@ def get_file(id):
     return send_from_directory("static/upload", existing_file.file_name)
 
 @logging_decorator
-def delete_file(id):
-    existing_file = File.query.get_or_404(id)
+def delete_file(file_id):
+    existing_file = File.query.get_or_404(file_id)
 
     file_path = os.path.join(current_app.config['UPLOAD_FOLDER'], existing_file.file_name)
 

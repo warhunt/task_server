@@ -9,11 +9,13 @@ from app.database import db
 
 
 app = create_app()
-app.config.from_object(os.getenv('APP_SETTINGS'))
+application = app.app
+application.config.from_object(os.getenv('APP_SETTINGS'))
 
-manager = Manager(app)
-migrate = Migrate(app, db)
+manager = Manager(application)
+migrate = Migrate(application, db)
 manager.add_command('db', MigrateCommand)
 
 if __name__ == '__main__':
     manager.run()
+    #app.run()

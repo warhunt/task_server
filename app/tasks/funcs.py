@@ -25,8 +25,8 @@ def get_all_task():
         return create_respons(data=all_task)
 
 @logging_decorator    
-def delete_task(id):
-    existing_task = Task.query.get_or_404(id)
+def delete_task(task_id):
+    existing_task = Task.query.get_or_404(task_id)
    
     db.session.delete(existing_task)
     db.session.commit()
@@ -34,10 +34,10 @@ def delete_task(id):
     return create_respons(message="Task is deleted")
 
 @logging_decorator
-def update_task(id):
+def update_task(task_id):
     body = request.get_json()
 
-    existing_task = Task.query.get_or_404(id)
+    existing_task = Task.query.get_or_404(task_id)
 
     if Task.query.filter_by(id=existing_task.id).update({**body}):
         db.session.commit()
@@ -47,6 +47,6 @@ def update_task(id):
     return create_respons(message="Task is updated")
 
 @logging_decorator
-def get_task(id):
-    existing_task = Task.query.get_or_404(id)
+def get_task(task_id):
+    existing_task = Task.query.get_or_404(task_id)
     return create_respons(data=existing_task)
