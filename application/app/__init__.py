@@ -3,7 +3,7 @@ import logging
 from logging.config import dictConfig
 
 from flask import Flask
-from flask_debugtoolbar import DebugToolbarExtension
+
 from flask_cors import CORS
 import connexion
 
@@ -38,6 +38,7 @@ def create_app():
         
 
     if application.debug == True:
+        from flask_debugtoolbar import DebugToolbarExtension
         try:
             toolbar = DebugToolbarExtension(application)
         except:

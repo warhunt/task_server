@@ -1,23 +1,5 @@
-.idea/
-.idea/*
-
-lib/
-lib/*
-
 *.py[cod]
 *.pyc
-
-bin/
-bin/*
-
-share/
-share/*
-
-local/
-local/*
-
-include/
-include/*
 
 env/
 env/*
@@ -25,15 +7,19 @@ env/*
 .vscode/
 .vscode/*
 
-__pycache__/
-*/__pycache__/*
+application/__pycache__/
+application/__pycache__/*
 
-app/FGSH_server_db.db
+application/app/__pycache__/
+application/app/__pycache__/*
 
-static/upload/*
+application/app/FGSH_server_db.db
 
+migrations/
 migrations/*
 
-app/FGSH_server_log.log
+application/app/FGSH_server_log.log
 
-app/static/upload/*
+application/app/static/
+application/app/static/upload/
+application/app/static/upload/*

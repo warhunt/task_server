@@ -15,7 +15,7 @@ tags:
   - name: solution
     description: Everything about solution
   - name: file
-    description: Everything about solution
+    description: Everything about file
 paths:
   /role:
     post:
@@ -619,7 +619,7 @@ paths:
               properties:
                 from_user_id:
                   type: integer
-                fileName:
+                file:
                   type: string
                   format: binary
       responses:

@@ -1,0 +1,20 @@
+version: '3.7'
+
+services:
+  application:
+    restart: always
+    build: ./application/
+    command: gunicorn -w 4 --bind :5000 "manage:create_app()"
+    volumes:
+      - ./application/:/usr/src/application/
+    expose:
+      - 5000
+  nginx:
+    restart: always
+    build: ./nginx
+    links:
+      - application
+    expose:
+      - 80
+    ports:
+      - 1991:80  
